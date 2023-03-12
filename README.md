@@ -26,5 +26,5 @@ The second class is GameBoard. This class is responsible for showing the letters
 
 The second class is GameBoard. This class is responsible for showing the letters that are typed in and the corresponding colors of each letter once it is entered. It also has a key listener that listens to actions on keyboard such as typing a letter or pressing enter or delete and act accordingly. The third class is Wordle. This is the main class for the game model that contains all the game functions such as checking valid words, adding tiles to the board and so on. It incorporates all functionalities of wordle that it can function without the GUI components. The last class is Tile. It is a class that represents each individual tile on the board. It contains the letter of the tile, the current state (0 for the default, 1 for gray blocks, 2 for yellow blocks, and 3 for green blocks), and the current column and rows. The 2D array is constructed with Tile class objects.
 
-# 中文版
-这个游戏是一个风靡北美在New York Times上连载的Wordle的变体。每次游戏会有一个随机选择的六个字母的英文单词，用户有七次机会来猜词，每一次用户可以知道猜的词中有哪些字母出现在了正确答案中并是不是在正确的位置上。
+# 中文游戏简介
+这个游戏是一个风靡北美在New York Times上连载的Wordle的变体。每次游戏会有一个随机选择的六个字母的英文单词，用户有七次机会来猜词，每一次用户可以知道猜的词中有哪些字母出现在了正确答案中并是不是在正确的位置上。灰色为字母不在正确单词中，黄色为字母在正确答案里但不在正确位置上，绿色为这个字母出现在正确答案里一模一样的位置。
