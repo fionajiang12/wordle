@@ -1,4 +1,4 @@
-# CIS 1200 Game Project README
+# CIS 1200 Game Project Wordle README
 
 ## Core Concepts
 
@@ -23,3 +23,8 @@ I individually designed functions to deal with checking valid word, picking word
 I have four classes in total.
 The first class is RunWordle. This class takes care of running the game including showing the instruction window, and the main game window.
 The second class is GameBoard. This class is responsible for showing the letters that are typed in and the corresponding colors of each letter once it is entered. It also has a key listener that listens to actions on keyboard such as typing a letter or pressing enter or delete and act accordingly. The third class is Wordle. This is the main class for the game model that contains all the game functions such as checking valid words, adding tiles to the board and so on. It incorporates all functionalities of wordle that it can function without the GUI components. The last class is Tile. It is a class that represents each individual tile on the board. It contains the letter of the tile, the current state (0 for the default, 1 for gray blocks, 2 for yellow blocks, and 3 for green blocks), and the current column and rows. The 2D array is constructed with Tile class objects.
+
+The second class is GameBoard. This class is responsible for showing the letters that are typed in and the corresponding colors of each letter once it is entered. It also has a key listener that listens to actions on keyboard such as typing a letter or pressing enter or delete and act accordingly. The third class is Wordle. This is the main class for the game model that contains all the game functions such as checking valid words, adding tiles to the board and so on. It incorporates all functionalities of wordle that it can function without the GUI components. The last class is Tile. It is a class that represents each individual tile on the board. It contains the letter of the tile, the current state (0 for the default, 1 for gray blocks, 2 for yellow blocks, and 3 for green blocks), and the current column and rows. The 2D array is constructed with Tile class objects.
+
+# 中文版
+这个游戏是一个风靡北美在New York Times上连载的Wordle的变体。
