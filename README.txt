@@ -1,6 +1,5 @@
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 CIS 1200 Game Project README
-PennKey: fionaj
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
 ===================
@@ -54,29 +53,3 @@ PennKey: fionaj
   the tile, the current state (0 for the default, 1 for gray blocks, 2 for yellow blocks, and 3 for green blocks),
   and the current column and rows. The 2D array is constructed with Tile class objects.
 
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
-  When I was implementing the game, the main difficulty is checking whether a letter is yellow/green/gray and
-  implementing the key listeners on the game board. Since each letter individually functions independently, it was
-  hard to put them together as an input string and check their individual states as a whole. With key listeners,
-  since wordle is a game that is primarily based on keyboard input, I need to make sure that delete, enter, and letter
-  inputs should return different functions.
-
-
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
-  I think it is relatively a good separation of functionality. If I can do it again, I would still have this Tile class
-  to take care of the individual attributes related to each block. The private states are encapsulated within the
-  Wordle class that users would not be able to see things such as the answer (unless they guess it correctly or it is
-  revealed at the end), current rows and columns, and other private states. Given the chance to refactor, I may want to
-
-
-
-
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (images, tutorials, etc.) that you may have used 
-  while implementing your game.
-  I searched up the RGB code for wordle tile colors and fonts.
