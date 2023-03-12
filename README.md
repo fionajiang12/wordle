@@ -1,9 +1,7 @@
-CIS 1200 Game Project README
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+#CIS 1200 Game Project README
 
-===================
-=: Core Concepts :=
-===================
+##Core Concepts
+
 
 - List the four core concepts, the features they implement, and why each feature
   is an appropriate use of the concept. Incorporate the feedback you got after
